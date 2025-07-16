@@ -1,5 +1,6 @@
 ---
-
+import Navbar from "../components/navbar.astro"
+import "../styles/global.css"
 ---
 
 <html lang="en">
@@ -8,9 +9,14 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Tiny Table</title>
 	</head>
 	<body>
-		<h1>Tiny Table</h1>
+		<div>
+			<Navbar />
+		</div>
+		<div>
+			<h1>Tiny Table</h1>
+		</div>
 	</body>
 </html>
