@@ -1,5 +1,6 @@
 ---
 import Navbar from "../components/navbar.astro"
+import Footer from "../components/footer.astro"
 import "../styles/global.css"
 ---
 
@@ -12,11 +13,9 @@ import "../styles/global.css"
 		<title>Tiny Table</title>
 	</head>
 	<body>
-		<div>
-			<Navbar />
-		</div>
-		<div>
-			<h1>Tiny Table</h1>
+		<Navbar />
+		<div class="bodyContentContainer">
+			<Footer />
 		</div>
 	</body>
 </html>
