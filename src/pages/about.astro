@@ -1,0 +1,27 @@
+---
+import Footer from "../components/footer.astro"
+import Navbar from "../components/navbar.astro"
+import "../styles/global.css"
+const pageTitle = "Tiny Table - About"
+---
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/TinyTableIconEmptyBackground.png" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div>
+        <Navbar />
+      <div class="bodyContentContainer">
+        <h1>About</h1>
+        <p>Learn more about and support Holly, Julian, Neo, and Skyler!</p>
+        <Footer />
+      </div>
+    </div>
+  </body>
+</html>
