@@ -7,14 +7,28 @@ import "../styles/global.css"
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/TinyTableIconEmptyBackground.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Tiny Table</title>
+		<style>
+			.homePageLanding{
+				height: 90vh;
+				display: flex;
+				justify-content: center;
+				background-color: #94d6e6;
+			}
+			.homePageImage{
+				height: 90vh;
+			}
+		</style>
 	</head>
 	<body>
 		<Navbar />
 		<div class="bodyContentContainer">
+			<div class="homePageLanding">
+				<img class="homePageImage" src="/TinyTableIconSolidBackground.png">
+			</div>
 			<Footer />
 		</div>
 	</body>

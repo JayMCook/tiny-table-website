@@ -9,34 +9,44 @@ h1{
   margin: 0;
 }
 .bodyContentContainer{
-  width: 100%;
+  width: 100vw;
   padding-top: 10vh;
-  padding-left: 2vw;
-  padding-right: 2vw;
 }
 .navbar{
   padding: 15px;
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   display: flex;
   flex-direction: row;
+  background-color: #f2a428;
 }
 .titleAndLogoContainer{
-  width: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.navLinkContainer{
-  width: 50%;
+.navbarLogo{
+  height: 8vh;
+}
+.navPageLinkContainer{
+  width: 55%;
+  margin: auto;
+  text-align: left;
+}
+.navSocialLinkContainer{
+  width: 25%;
   margin: auto;
   text-align: right;
 }
 .footer{
   left: 0;
   bottom: 0;
-  width: auto;
-  height: 10%;
+  width: 100vw;
+  height: 10vh;
   text-align: center;
   padding: 15px;
 }
