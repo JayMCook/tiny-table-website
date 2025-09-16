@@ -1,1 +1,1 @@
-Basic frontend website to function as a homepage for the podcast Tiny Table! Currently a WIP.
+Basic frontend website to function as a homepage for the podcast Tiny Table! Currently a WIP. 
