@@ -12,14 +12,45 @@ const pageTitle = "Tiny Table - About"
     <link rel="icon" type="image/svg+xml" href="/TinyTableIconEmptyBackground.png" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
+    <style>
+      .aboutHeader{
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .aboutSegment{
+        height: 20vh;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .bodyContentContainer{
+        background-color: #94d6e6;
+      }
+    </style>
   </head>
   <body>
     <div class="pageContainer">
       <div>
         <Navbar />
       <div class="bodyContentContainer">
-        <h1>About</h1>
-        <p>Learn more about and support Holly, Julian, Neo, and Skyler!</p>
+        <div class="aboutHeader">
+          <h1>About</h1>
+          <p>Learn more about and support Holly, Julian, Neo, and Skyler!</p>
+        </div>
+        <div class="aboutSegment">
+          <h2>Holly</h2>
+        </div>
+        <div class="aboutSegment">
+          <h2>Julian</h2>
+        </div>
+        <div class="aboutSegment">
+          <h2>Neo</h2>
+        </div>
+        <div class="aboutSegment">
+          <h2>Skyler</h2>
+        </div>
         <Footer />
       </div>
     </div>
